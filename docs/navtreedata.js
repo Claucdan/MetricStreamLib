@@ -38,13 +38,24 @@ var NAVTREE =
         [ "Build with examples", "d3/dcc/md__r_e_a_d_m_e.html#autotoc_md9", null ]
       ] ]
     ] ],
-    [ "Interfaces", "annotatedinterfaces.html", null ]
+    [ "Classes", "annotated.html", [
+      [ "Class List", "annotated.html", "annotated_dup" ],
+      [ "Class Index", "classes.html", null ],
+      [ "Class Hierarchy", "hierarchy.html", "hierarchy" ],
+      [ "Class Members", "functions.html", [
+        [ "All", "functions.html", null ],
+        [ "Functions", "functions_func.html", null ]
+      ] ]
+    ] ],
+    [ "Files", "files.html", [
+      [ "File List", "files.html", "files_dup" ]
+    ] ]
   ] ]
 ];
 
 var NAVTREEINDEX =
 [
-"d3/dcc/md__r_e_a_d_m_e.html"
+"annotated.html"
 ];
 
 var SYNCONMSG = 'click to disable panel synchronization';

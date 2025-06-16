@@ -1,6 +1,6 @@
 var annotated_dup =
 [
-    [ "mes", "dc/d98/namespacemes.html", [
+    [ "mes", null, [
       [ "FileMetricsStorage", "dd/dc7/classmes_1_1_file_metrics_storage.html", "dd/dc7/classmes_1_1_file_metrics_storage" ],
       [ "Metric", "d8/d7a/classmes_1_1_metric.html", "d8/d7a/classmes_1_1_metric" ],
       [ "MetricsController", "d9/d51/classmes_1_1_metrics_controller.html", "d9/d51/classmes_1_1_metrics_controller" ],
@@ -9,7 +9,7 @@ var annotated_dup =
       [ "MultiThreadController", "d9/d3e/classmes_1_1_multi_thread_controller.html", "d9/d3e/classmes_1_1_multi_thread_controller" ],
       [ "Scheduler", "de/d32/classmes_1_1_scheduler.html", "de/d32/classmes_1_1_scheduler" ]
     ] ],
-    [ "slg", "d5/ded/namespaceslg.html", [
+    [ "slg", null, [
       [ "ConsoleLogger", "dc/d25/classslg_1_1_console_logger.html", "dc/d25/classslg_1_1_console_logger" ],
       [ "Logger", "db/d90/classslg_1_1_logger.html", "db/d90/classslg_1_1_logger" ]
     ] ],
