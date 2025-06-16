@@ -5,7 +5,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=11"/>
 <meta name="generator" content="Doxygen 1.14.0"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>MetricSteamLib: Main Page</title>
+<title>MetricSteamLib: MetricStreamLib</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -88,10 +88,55 @@ $(function(){initNavTree('index.html','',''); });
 </div>
 </div>
 
-<div class="header">
-  <div class="headertitle"><div class="title">MetricSteamLib Documentation</div></div>
+<div><div class="header">
+  <div class="headertitle"><div class="title">MetricStreamLib </div></div>
 </div><!--header-->
 <div class="contents">
+<div class="textblock"><p><a class="anchor" id="md__r_e_a_d_m_e"></a></p>
+<div align="center"> <img src="img/logo.png" alt="" width="40%" class="inline"/> </div><p> <br  />
+ </p><div align="center"> <img src="https://img.shields.io/badge/Linux-%23.svg?logo=linux&amp;color=black&amp;logoColor=yellow" alt="" style="pointer-events: none;" class="inline"/> <img src="https://img.shields.io/badge/macOS-%23.svg?logo=apple&amp;color=000000&amp;logoColor=white" alt="" style="pointer-events: none;" class="inline"/> <img src="https://img.shields.io/badge/Windows-%23.svg?logo=windows&amp;color=black&amp;logoColor=blue" alt="" style="pointer-events: none;" class="inline"/> <img src="https://img.shields.io/badge/-C/C++-black?logo=c&amp;logoColor=blue" alt="" class="inline"/> <img src="https://img.shields.io/badge/-CMake-black?logo=cmake&amp;logoColor=yellow" alt="" class="inline"/> </div><h1 class="doxsection"><a class="anchor" id="autotoc_md1"></a>
+Information</h1>
+<p>This is a C++ library designed for collecting and storing metrics in a human-readable text format. The library allows you to record named events with associated values and timestamps. Metrics can represent various system or application events such as CPU utilization or the number of HTTP requests per second. The system is flexible and easily extensible to support new metric types.</p>
+<h2 class="doxsection"><a class="anchor" id="autotoc_md2"></a>
+Output format:</h2>
+<div class="fragment"><div class="line">&lt;timestamp&gt; &lt;metric_name_1&gt; &lt;value_1&gt; &lt;metric_name_2&gt; &lt;value_2&gt; ...</div>
+</div><!-- fragment --><h2 class="doxsection"><a class="anchor" id="autotoc_md3"></a>
+Example output:</h2>
+<div class="fragment"><div class="line">2025-06-01 15:00:01.653 &quot;CPU&quot; 0.97 &quot;HTTP requests RPS&quot; 42</div>
+<div class="line">2025-06-01 15:00:02.653 &quot;CPU&quot; 1.12 &quot;HTTP requests RPS&quot; 30</div>
+</div><!-- fragment --><h1 class="doxsection"><a class="anchor" id="autotoc_md4"></a>
+Features</h1>
+<ul>
+<li>Flexible metric types — new metric types can be added without changing the library’s core logic.</li>
+<li>Extensible interface — easily integrate your own metrics by implementing corresponding interfaces.</li>
+<li>Collects metrics in a multithreaded environment.</li>
+</ul>
+<h1 class="doxsection"><a class="anchor" id="autotoc_md5"></a>
+Documentation</h1>
+<p>See: <a href="https://claucdan.github.io/MetricStreamLib/">https://claucdan.github.io/MetricStreamLib/</a></p>
+<h1 class="doxsection"><a class="anchor" id="autotoc_md6"></a>
+Requirements</h1>
+<ul>
+<li><span class="tt">CMake &gt;= 3.10</span></li>
+<li><span class="tt">g++ &gt;= 15.1</span> or <span class="tt">clang &gt;= 20.1</span></li>
+</ul>
+<h1 class="doxsection"><a class="anchor" id="autotoc_md7"></a>
+Installation &amp; Usage</h1>
+<h2 class="doxsection"><a class="anchor" id="autotoc_md8"></a>
+Build only library</h2>
+<div class="fragment"><div class="line">git clone ...</div>
+<div class="line">mkdir build &amp;&amp; cd build</div>
+<div class="line">cmake .. </div>
+<div class="line">cmake --build .</div>
+</div><!-- fragment --><p>Builded library you can find in <span class="tt">build/bin/</span></p>
+<h2 class="doxsection"><a class="anchor" id="autotoc_md9"></a>
+Build with examples</h2>
+<div class="fragment"><div class="line">git clone ...</div>
+<div class="line">mkdir build &amp;&amp; cd build</div>
+<div class="line">cmake .. -DBUILD_EXAMPLES=ON</div>
+<div class="line">cmake --build .</div>
+</div><!-- fragment --><p>Examples you can find in <span class="tt">build/examples/</span> </p>
+</div></div><!-- PageDoc -->
 <a href="doxygen_crawl.html"></a>
 </div><!-- contents -->
 </div><!-- doc-content -->

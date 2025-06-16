@@ -25,19 +25,7 @@
 var NAVTREE =
 [
   [ "MetricSteamLib", "index.html", [
-    [ "MetricStreamLib", "d3/dcc/md__r_e_a_d_m_e.html", [
-      [ "Information", "d3/dcc/md__r_e_a_d_m_e.html#autotoc_md1", [
-        [ "Output format:", "d3/dcc/md__r_e_a_d_m_e.html#autotoc_md2", null ],
-        [ "Example output:", "d3/dcc/md__r_e_a_d_m_e.html#autotoc_md3", null ]
-      ] ],
-      [ "Features", "d3/dcc/md__r_e_a_d_m_e.html#autotoc_md4", null ],
-      [ "Documentation", "d3/dcc/md__r_e_a_d_m_e.html#autotoc_md5", null ],
-      [ "Requirements", "d3/dcc/md__r_e_a_d_m_e.html#autotoc_md6", null ],
-      [ "Installation &amp; Usage", "d3/dcc/md__r_e_a_d_m_e.html#autotoc_md7", [
-        [ "Build only library", "d3/dcc/md__r_e_a_d_m_e.html#autotoc_md8", null ],
-        [ "Build with examples", "d3/dcc/md__r_e_a_d_m_e.html#autotoc_md9", null ]
-      ] ]
-    ] ],
+    [ "MetricStreamLib", "index.html", "index" ],
     [ "Classes", "annotated.html", [
       [ "Class List", "annotated.html", "annotated_dup" ],
       [ "Class Index", "classes.html", null ],

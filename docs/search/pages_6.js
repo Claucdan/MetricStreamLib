@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['metricstreamlib_0',['MetricStreamLib',['../d3/dcc/md__r_e_a_d_m_e.html',1,'']]]
+  ['metricstreamlib_0',['MetricStreamLib',['../index.html',1,'']]]
 ];
