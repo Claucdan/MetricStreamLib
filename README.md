@@ -40,7 +40,7 @@ second. The system is flexible and easily extensible to support new metric types
 
 ## Documentation
 
-See: [Documentation](freespace)
+See: https://claucdan.github.io/MetricStreamLib/
 
 ## Requirements
 
